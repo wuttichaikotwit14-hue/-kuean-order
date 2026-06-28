@@ -32760,7 +32760,7 @@ mime-types/index.js:
    * MIT Licensed
    *)
 
-media-typer/index.js:
+media-typer /index.js:
   (*!
    * media-typer
    * Copyright(c) 2014-2017 Douglas Christopher Wilson
@@ -32958,3 +32958,9 @@ object-assign/index.js:
   *)
 */
 //# sourceMappingURL=index.mjs.map
+console.log("server running");
+if (typeof app !== "undefined") {
+  app.get("/", (req, res) => {
+    res.send("🚀 WORKING");
+  });
+}
