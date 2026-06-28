@@ -1,8 +1,8 @@
 export default function App() {
   return (
-    <div style={{ padding: 20, fontFamily: "sans-serif" }}>
+    <div style={{ padding: 20 }}>
       <h1>🚀 Kuean Order</h1>
-      <p>Deploy สำเร็จแล้ว!</p>
+      <p>เว็บทำงานแล้ว</p>
     </div>
   );
 }
